@@ -1,0 +1,68 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.726",
+  "meta": {
+    "versionId": "30",
+    "lastUpdated": "2025-06-21T01:03:03.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2025-06-21"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.726",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.726"
+    }
+  ],
+  "version": "20250621",
+  "name": "HIVInfectionTestsForHIVByCultureAndIdentificationMethod",
+  "title": "HIV Infection (Tests for HIV by Culture and Identification Method)",
+  "status": "active",
+  "date": "2025-06-21T01:03:03-04:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:9cf2be60-9f6c-48d3-949f-6fc3fa052b91",
+    "timestamp": "2025-11-18T17:19:27-05:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "6429-5",
+        "display": "HIV identified in Blood by Organism specific culture"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "6430-3",
+        "display": "HIV identified in Semen by Organism specific culture"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "6431-1",
+        "display": "HIV identified in Specimen by Organism specific culture"
+      }
+    ]
+  }
+}

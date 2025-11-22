@@ -1,0 +1,1 @@
+{"resourceType":"Bundle","id":"tests-Patient-bundle","type":"transaction","entry":[{"resource":{"resourceType":"Patient","id":"mmr-rule11-positive","name":[{"family":"Smith","given":["Jill"]}],"gender":"female","birthDate":"1998-07-12"},"request":{"method":"PUT","url":"Patient/mmr-rule11-positive"}}]}

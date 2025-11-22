@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.1603",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2025-05-02T17:07:38.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2022-01-18"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1603",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.1603"
+    }
+  ],
+  "version": "20220118",
+  "name": "HIVInfectionARVAttachmentInhibitorsRXNORM",
+  "title": "HIV Infection (ARV Attachment Inhibitors) (RXNORM)",
+  "status": "retired",
+  "experimental": false,
+  "date": "2022-01-18T01:02:46-05:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:afd9150e-a258-4ea2-9cf5-4f2ee4f133b6",
+    "timestamp": "2025-11-18T17:19:58-05:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2380549",
+        "display": "12 HR fostemsavir 600 MG Extended Release Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2380551",
+        "display": "12 HR fostemsavir 600 MG Extended Release Oral Tablet [Rukobia]"
+      }
+    ]
+  }
+}

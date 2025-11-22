@@ -1,0 +1,69 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.3157.4055",
+  "meta": {
+    "versionId": "10",
+    "lastUpdated": "2024-09-06T09:18:03.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2019-02-16"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.3157.4055",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.3.3157.4055"
+    }
+  ],
+  "version": "20190216",
+  "name": "PregnantState",
+  "title": "Pregnant State",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-07T11:14:02-05:00",
+  "publisher": "Acumen OP Steward",
+  "expansion": {
+    "identifier": "urn:uuid:fe0fcf28-a6cd-4256-a217-29692c905937",
+    "timestamp": "2025-11-18T17:17:52-05:00",
+    "total": 3,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://snomed.info/sct",
+        "version": "2025-09",
+        "code": "77386006",
+        "display": "Pregnancy (finding)"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2026",
+        "code": "Z33.1",
+        "display": "Pregnant state, incidental"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2026",
+        "code": "Z33.3",
+        "display": "Pregnant state, gestational carrier"
+      }
+    ]
+  }
+}

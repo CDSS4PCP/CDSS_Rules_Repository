@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.464.1003.196.11.1235",
+  "meta": {
+    "versionId": "17",
+    "lastUpdated": "2023-12-21T17:43:03.000-05:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2017-05-04"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.196.11.1235",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.3.464.1003.196.11.1235"
+    }
+  ],
+  "version": "20170504",
+  "name": "MeaslesMumpsAndRubellaMMRVaccine",
+  "title": "Measles, Mumps and Rubella (MMR) Vaccine",
+  "status": "active",
+  "experimental": false,
+  "date": "2017-05-04T01:00:13-04:00",
+  "publisher": "NCQA PHEMUR",
+  "expansion": {
+    "identifier": "urn:uuid:2c67310e-8bfd-4d2d-856e-76a4234a23c6",
+    "timestamp": "2025-11-20T20:35:58-05:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/cvx",
+        "version": "20250715",
+        "code": "03",
+        "display": "measles, mumps and rubella virus vaccine"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/cvx",
+        "version": "20250715",
+        "code": "94",
+        "display": "measles, mumps, rubella, and varicella virus vaccine"
+      }
+    ]
+  }
+}

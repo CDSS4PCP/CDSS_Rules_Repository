@@ -1,0 +1,111 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.1599",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2025-05-02T16:55:02.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2022-01-18"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1599",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.1599"
+    }
+  ],
+  "version": "20220118",
+  "name": "HIVInfectionARVCCR5AntagonistsRXNORM",
+  "title": "HIV Infection (ARV CCR5 Antagonists) (RXNORM)",
+  "status": "retired",
+  "experimental": false,
+  "date": "2022-01-18T01:02:45-05:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:74d427d9-608d-404e-a7c0-826600ed1fd3",
+    "timestamp": "2025-11-18T17:19:33-05:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1857911",
+        "display": "maraviroc 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1857913",
+        "display": "maraviroc 25 MG Oral Tablet [Selzentry]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1857915",
+        "display": "maraviroc 75 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1857917",
+        "display": "maraviroc 75 MG Oral Tablet [Selzentry]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1857921",
+        "display": "maraviroc 20 MG/ML Oral Solution"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1857925",
+        "display": "maraviroc 20 MG/ML Oral Solution [Selzentry]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "728223",
+        "display": "maraviroc 150 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "728225",
+        "display": "maraviroc 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "729201",
+        "display": "maraviroc 150 MG Oral Tablet [Selzentry]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "729203",
+        "display": "maraviroc 300 MG Oral Tablet [Selzentry]"
+      }
+    ]
+  }
+}

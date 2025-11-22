@@ -1,0 +1,63 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.1602",
+  "meta": {
+    "versionId": "8",
+    "lastUpdated": "2025-05-02T17:11:41.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2022-01-18"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1602",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.1602"
+    }
+  ],
+  "version": "20220118",
+  "name": "HIVInfectionARVPostattachmentInhibitorsRXNORM",
+  "title": "HIV Infection (ARV Postattachment Inhibitors) (RXNORM)",
+  "status": "retired",
+  "experimental": false,
+  "date": "2022-01-18T01:02:46-05:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:a4f29899-f463-4adf-accb-f7707f485955",
+    "timestamp": "2025-11-18T17:20:02-05:00",
+    "total": 2,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2043317",
+        "display": "1.33 ML ibalizumab-uiyk 150 MG/ML Injection"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2043322",
+        "display": "1.33 ML ibalizumab-uiyk 150 MG/ML Injection [Trogarzo]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,587 @@
+CQL: /Users/danheslinga/CDSS_Rules_Repository/MMR/input/cql
+Terminology: /Users/danheslinga/CDSS_Rules_Repository/MMR/input/vocabulary/valueset
+Test cases:
+mmr-rule1-negative - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule1-negative
+mmr-rule1-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule1-positive
+mmr-rule10-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule10-positive
+mmr-rule11-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule11-positive
+mmr-rule12-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule12-positive
+mmr-rule12-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule12-positive2
+mmr-rule12-positive3 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule12-positive3
+mmr-rule2-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule2-positive
+mmr-rule3-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule3-positive
+mmr-rule4-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule4-positive
+mmr-rule5-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule5-positive
+mmr-rule5-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule5-positive2
+mmr-rule6-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule6-positive
+mmr-rule6-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule6-positive2
+mmr-rule7-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule7-positive
+mmr-rule8-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule8-positive
+mmr-rule9-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR8regular4_18yrs_OneDoseRecommendation/mmr-rule9-positive
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=1
+Current Age in Upper Limit Units=1
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule1-negative)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=0
+Current Age in Upper Limit Units=0
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule1-positive)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=27
+Current Age in Upper Limit Units=27
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule10-positive)
+PrevDoseDate=2022-07-30
+Recommendation1=null
+TimeSinceFirstDose=172
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=27
+Current Age in Upper Limit Units=27
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule11-positive)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=27
+Current Age in Upper Limit Units=27
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule12-positive)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=27
+Current Age in Upper Limit Units=27
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule12-positive2)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=27
+Current Age in Upper Limit Units=27
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule12-positive3)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=3
+Current Age in Upper Limit Units=3
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule2-positive)
+PrevDoseDate=2023-08-12
+Recommendation1=null
+TimeSinceFirstDose=118
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=true
+Current Age in Lower Limit Units=9
+Current Age in Upper Limit Units=9
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule3-positive)
+PrevDoseDate=2023-08-12
+Recommendation1=null
+TimeSinceFirstDose=118
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=3
+Current Age in Upper Limit Units=3
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule4-positive)
+PrevDoseDate=2023-08-12
+Recommendation1=null
+TimeSinceFirstDose=118
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=3
+Current Age in Upper Limit Units=3
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule5-positive)
+PrevDoseDate=2023-11-25
+Recommendation1=null
+TimeSinceFirstDose=103
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=3
+Current Age in Upper Limit Units=3
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule5-positive2)
+PrevDoseDate=2023-06-25
+Recommendation1=null
+TimeSinceFirstDose=125
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=3
+Current Age in Upper Limit Units=3
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule6-positive)
+PrevDoseDate=2024-08-05
+Recommendation1=null
+TimeSinceFirstDose=67
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=2
+Current Age in Upper Limit Units=2
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule6-positive2)
+PrevDoseDate=2024-04-03
+Recommendation1=null
+TimeSinceFirstDose=85
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=true
+Current Age in Lower Limit Units=9
+Current Age in Upper Limit Units=9
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule7-positive)
+PrevDoseDate=2022-07-30
+Recommendation1=null
+TimeSinceFirstDose=172
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=true
+Current Age in Lower Limit Units=9
+Current Age in Upper Limit Units=9
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule8-positive)
+PrevDoseDate=2024-07-30
+Recommendation1=null
+TimeSinceFirstDose=68
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+$Age1=4
+$Age1_unit=year
+$Age2=18
+$Age2_unit=year
+$WeeksSinceDose=4
+$WeeksSinceDose_unit=week
+Current Age In Range=false
+Current Age in Lower Limit Units=27
+Current Age in Upper Limit Units=27
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule9-positive)
+PrevDoseDate=null
+Recommendation1=null
+TimeSinceFirstDose=null
+VaccineName=Measles, Mumps, and Rubella Virus Vaccine
+
+
+Evaluation logs:
+1414294 [pool-2-thread-1] INFO  o.c.fhir.npm.NpmPackageManager Loading core FHIR version hl7.fhir.r4.core 
+1414439 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414439 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414555 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414555 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414556 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414556 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414556 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414556 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414556 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414556 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414556 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414557 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414557 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414557 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414558 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414558 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414558 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414558 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414558 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414558 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414558 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414558 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414559 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414559 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414559 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414559 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414559 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414559 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414567 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414568 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414568 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414569 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414570 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414570 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414570 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414570 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414570 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414571 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414571 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414571 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414572 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414572 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414572 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414572 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414572 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414572 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414573 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414573 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414573 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414573 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414573 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414573 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414573 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414573 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414574 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414574 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414574 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414574 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414574 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414574 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414574 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414575 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414575 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414575 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414576 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414576 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414576 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414576 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414576 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414576 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414576 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414576 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414577 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414577 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414577 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414577 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414577 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414577 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414577 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414577 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414577 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414578 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414578 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414578 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414578 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414578 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414578 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414578 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414578 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414578 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414578 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414579 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414579 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414579 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414579 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414579 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414579 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414579 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414580 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414580 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414581 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414581 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414581 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414581 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414581 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414581 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414581 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414581 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414582 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414582 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414582 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414582 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414582 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414582 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414582 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414582 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414582 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414583 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414583 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414583 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414583 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414583 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414583 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414583 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414583 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414583 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414584 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414584 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414584 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414584 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414584 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414584 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414584 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414584 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414585 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414585 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414585 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414585 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414585 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414585 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414586 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414586 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414586 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414586 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414586 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414586 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414586 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414586 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414587 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414587 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414587 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414587 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414587 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414587 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414587 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414587 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414588 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414588 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414588 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414588 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414588 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414588 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414588 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414588 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414588 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414589 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414589 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414589 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414589 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414589 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414589 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414589 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414589 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414589 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414589 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414590 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414590 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414590 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414590 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414590 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414590 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414590 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414591 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414591 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414591 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414591 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414591 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414591 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414591 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414591 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414591 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414592 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414592 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414592 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414592 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414592 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414592 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414593 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+1414593 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+1414593 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+
+elapsed: 0.32 seconds

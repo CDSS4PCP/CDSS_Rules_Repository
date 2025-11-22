@@ -1,0 +1,17 @@
+{
+  "resourceType": "Group",
+  "id": "mmr-rule6-positive2",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/mmr-rule6-positive2"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/mmr-rule6-positive2",
+      "display": "John Smith"
+    }
+  } ]
+}

@@ -1,0 +1,14 @@
+{
+  "resourceType": "Patient",
+  "id": "mmr-rule1-positive",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2025-10-20"
+}

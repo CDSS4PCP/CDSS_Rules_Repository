@@ -1,0 +1,140 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.368",
+  "meta": {
+    "versionId": "28",
+    "lastUpdated": "2025-06-21T01:03:03.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2025-06-21"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.368",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.368"
+    }
+  ],
+  "version": "20250621",
+  "name": "HIVInfectionTestsForHIVAntigen",
+  "title": "HIV Infection (Tests for HIV Antigen)",
+  "status": "active",
+  "date": "2025-06-21T01:03:03-04:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:f3b27518-6d1e-40d2-90a9-06f99b69562d",
+    "timestamp": "2025-11-18T17:19:24-05:00",
+    "total": 15,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "16976-3",
+        "display": "HIV 1 Ag [Units/volume] in Serum"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "16977-1",
+        "display": "HIV 1 Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "16979-7",
+        "display": "HIV 1 p24 Ag [Units/volume] in Cerebral spinal fluid"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "18396-2",
+        "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "24012-7",
+        "display": "HIV 1 Ag [Presence] in Serum"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "33660-2",
+        "display": "HIV 1 p24 Ag [Presence] in Serum or Plasma by Neutralization test"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "42339-2",
+        "display": "HIV 1 p24 Ag [Mass/volume] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "49718-0",
+        "display": "HIV 1 p24 Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "5222-5",
+        "display": "HIV 1 Ag [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "53601-1",
+        "display": "HIV 1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "56888-1",
+        "display": "HIV 1+2 Ab+HIV1 p24 Ag [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "58900-2",
+        "display": "HIV 1+2 Ab+HIV1 p24 Ag [Units/volume] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "75666-8",
+        "display": "HIV 1+2 Ab and HIV1 p24 Ag [Identifier] in Serum, Plasma or Blood by Rapid immunoassay"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "9665-1",
+        "display": "HIV 1 p24 Ag [Units/volume] in Serum"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "9821-0",
+        "display": "HIV 1 p24 Ag [Presence] in Serum"
+      }
+    ]
+  }
+}

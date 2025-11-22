@@ -1,0 +1,17 @@
+{
+  "resourceType": "Group",
+  "id": "mmr-rule10-positive",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/mmr-rule10-positive"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/mmr-rule10-positive",
+      "display": "Jill Smith"
+    }
+  } ]
+}

@@ -1,0 +1,476 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.1597",
+  "meta": {
+    "versionId": "18",
+    "lastUpdated": "2025-06-21T01:03:03.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2025-06-21"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1597",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.1597"
+    }
+  ],
+  "version": "20250621",
+  "name": "HIVInfectionARVCombinationTreatmentForHIVRXNORM",
+  "title": "HIV Infection (ARV Combination Treatment for HIV) (RXNORM)",
+  "status": "active",
+  "date": "2025-06-21T01:03:03-04:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:ca2ef8c1-8868-4321-a2dd-544b9d3d596e",
+    "timestamp": "2025-11-18T17:19:02-05:00",
+    "total": 71,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1147334",
+        "display": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1147337",
+        "display": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Complera]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1306292",
+        "display": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1306298",
+        "display": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Stribild]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1546888",
+        "display": "abacavir 600 MG / dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1546894",
+        "display": "abacavir 600 MG / dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Triumeq]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1597379",
+        "display": "ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1600704",
+        "display": "cobicistat 150 MG / darunavir 800 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1600710",
+        "display": "cobicistat 150 MG / darunavir 800 MG Oral Tablet [Prezcobix]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1601654",
+        "display": "atazanavir 300 MG / cobicistat 150 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1601660",
+        "display": "atazanavir 300 MG / cobicistat 150 MG Oral Tablet [Evotaz]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1721613",
+        "display": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1721619",
+        "display": "cobicistat 150 MG / elvitegravir 150 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet [Genvoya]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1741733",
+        "display": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir alafenamide 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1741739",
+        "display": "emtricitabine 200 MG / rilpivirine 25 MG / tenofovir alafenamide 25 MG Oral Tablet [Odefsey]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1744001",
+        "display": "emtricitabine 100 MG / tenofovir disoproxil fumarate 150 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1744003",
+        "display": "emtricitabine 100 MG / tenofovir disoproxil fumarate 150 MG Oral Tablet [Truvada]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1744005",
+        "display": "emtricitabine 133 MG / tenofovir disoproxil fumarate 200 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1744007",
+        "display": "emtricitabine 133 MG / tenofovir disoproxil fumarate 200 MG Oral Tablet [Truvada]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1744009",
+        "display": "emtricitabine 167 MG / tenofovir disoproxil fumarate 250 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1744011",
+        "display": "emtricitabine 167 MG / tenofovir disoproxil fumarate 250 MG Oral Tablet [Truvada]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1747691",
+        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1747697",
+        "display": "emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Descovy]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1989500",
+        "display": "dolutegravir 50 MG / rilpivirine 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1989506",
+        "display": "dolutegravir 50 MG / rilpivirine 25 MG Oral Tablet [Juluca]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1999667",
+        "display": "bictegravir 50 MG / emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1999673",
+        "display": "bictegravir 50 MG / emtricitabine 200 MG / tenofovir alafenamide 25 MG Oral Tablet [Biktarvy]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "200082",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2001424",
+        "display": "efavirenz 400 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2001430",
+        "display": "efavirenz 400 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Symfi]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2003249",
+        "display": "lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2003255",
+        "display": "lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Cimduo]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2043464",
+        "display": "efavirenz 600 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Symfi]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2049671",
+        "display": "cobicistat 150 MG / darunavir 800 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2049677",
+        "display": "cobicistat 150 MG / darunavir 800 MG / emtricitabine 200 MG / tenofovir alafenamide 10 MG Oral Tablet [Symtuza]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2055813",
+        "display": "doravirine 100 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2055815",
+        "display": "doravirine 100 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Delstrigo]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2122519",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2122526",
+        "display": "dolutegravir 50 MG / lamivudine 300 MG Oral Tablet [Dovato]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2123034",
+        "display": "lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Temixys]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "213088",
+        "display": "lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Combivir]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2584354",
+        "display": "bictegravir 30 MG / emtricitabine 120 MG / tenofovir alafenamide 15 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2584356",
+        "display": "bictegravir 30 MG / emtricitabine 120 MG / tenofovir alafenamide 15 MG Oral Tablet [Biktarvy]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2590641",
+        "display": "emtricitabine 120 MG / tenofovir alafenamide 15 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2590643",
+        "display": "emtricitabine 120 MG / tenofovir alafenamide 15 MG Oral Tablet [Descovy]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2598348",
+        "display": "abacavir 60 MG / dolutegravir 5 MG / lamivudine 30 MG Tablet for Oral Suspension"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2598352",
+        "display": "abacavir 60 MG / dolutegravir 5 MG / lamivudine 30 MG Tablet for Oral Suspension [Triumeq]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "285028",
+        "display": "abacavir 300 MG / lamivudine 150 MG / zidovudine 300 MG Oral Tablet [Trizivir]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "307650",
+        "display": "abacavir 300 MG / lamivudine 150 MG / zidovudine 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "311368",
+        "display": "lopinavir 133 MG / ritonavir 33.3 MG Oral Capsule"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "311369",
+        "display": "lopinavir 80 MG/ML / ritonavir 20 MG/ML Oral Solution"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "476556",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "597730",
+        "display": "lopinavir 200 MG / ritonavir 50 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "602393",
+        "display": "abacavir 600 MG / lamivudine 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "602395",
+        "display": "abacavir 600 MG / lamivudine 300 MG Oral Tablet [Epzicom]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "639888",
+        "display": "emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Truvada]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "643066",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "643070",
+        "display": "efavirenz 600 MG / emtricitabine 200 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet [Atripla]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "687064",
+        "display": "lamivudine 150 MG / nevirapine 200 MG / zidovudine 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "729583",
+        "display": "lamivudine 150 MG / stavudine 40 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "746645",
+        "display": "lopinavir 100 MG / ritonavir 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "757685",
+        "display": "lamivudine 150 MG / stavudine 30 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "757690",
+        "display": "lamivudine 30 MG / nevirapine 50 MG / stavudine 6 MG Disintegrating Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "757694",
+        "display": "lamivudine 60 MG / nevirapine 100 MG / stavudine 12 MG Disintegrating Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "847741",
+        "display": "lopinavir 200 MG / ritonavir 50 MG Oral Tablet [Kaletra]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "847745",
+        "display": "lopinavir 100 MG / ritonavir 25 MG Oral Tablet [Kaletra]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "847749",
+        "display": "lopinavir 80 MG/ML / ritonavir 20 MG/ML Oral Solution [Kaletra]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "864661",
+        "display": "efavirenz 600 MG / lamivudine 300 MG / tenofovir disoproxil fumarate 300 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "900625",
+        "display": "lamivudine 150 MG / nevirapine 200 MG / stavudine 30 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "900627",
+        "display": "lamivudine 150 MG / nevirapine 200 MG / stavudine 40 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "900630",
+        "display": "lamivudine 30 MG / zidovudine 60 MG Oral Tablet"
+      }
+    ]
+  }
+}

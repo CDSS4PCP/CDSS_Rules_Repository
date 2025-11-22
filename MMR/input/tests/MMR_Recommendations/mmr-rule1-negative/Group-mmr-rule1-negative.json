@@ -1,0 +1,17 @@
+{
+  "resourceType": "Group",
+  "id": "mmr-rule1-negative",
+  "extension": [ {
+    "url": "http://hl7.org/fhir/StructureDefinition/artifact-testArtifact",
+    "valueCanonical": "http://ecqi.healthit.gov/ecqms/Measure/mmr-rule1-negative"
+  } ],
+  "active": true,
+  "type": "person",
+  "actual": true,
+  "member": [ {
+    "entity": {
+      "reference": "Patient/mmr-rule1-negative",
+      "display": "John Smith"
+    }
+  } ]
+}

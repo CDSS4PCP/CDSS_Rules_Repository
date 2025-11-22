@@ -1,0 +1,111 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.1601",
+  "meta": {
+    "versionId": "8",
+    "lastUpdated": "2025-05-02T17:14:18.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2022-01-18"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1601",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.1601"
+    }
+  ],
+  "version": "20220118",
+  "name": "HIVInfectionARVBoostersCYP3A4InhibitorRXNORM",
+  "title": "HIV Infection (ARV Boosters [CYP3A4 Inhibitor]) (RXNORM)",
+  "status": "retired",
+  "experimental": false,
+  "date": "2022-01-18T01:02:46-05:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:16c96863-6501-4b70-add6-f0706ae3fdd0",
+    "timestamp": "2025-11-18T17:19:31-05:00",
+    "total": 10,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "152970",
+        "display": "ritonavir 100 MG Oral Capsule [Norvir]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "152971",
+        "display": "ritonavir 80 MG/ML Oral Solution [Norvir]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1551993",
+        "display": "cobicistat 150 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1551999",
+        "display": "cobicistat 150 MG Oral Tablet [Tybost]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1926066",
+        "display": "ritonavir 100 MG Oral Powder"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1926069",
+        "display": "ritonavir 100 MG Oral Powder [Norvir]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "199249",
+        "display": "ritonavir 80 MG/ML Oral Solution"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "317150",
+        "display": "ritonavir 100 MG Oral Capsule"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "900575",
+        "display": "ritonavir 100 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "900577",
+        "display": "ritonavir 100 MG Oral Tablet [Norvir]"
+      }
+    ]
+  }
+}
