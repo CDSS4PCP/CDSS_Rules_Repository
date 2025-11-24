@@ -1,0 +1,93 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.464.1003.121.11.1009",
+  "meta": {
+    "versionId": "14",
+    "lastUpdated": "2023-12-21T17:43:03.000-05:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2017-05-04"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.121.11.1009",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.3.464.1003.121.11.1009"
+    }
+  ],
+  "version": "20170504",
+  "name": "CD4Percentage",
+  "title": "CD4+ Percentage",
+  "status": "retired",
+  "experimental": false,
+  "date": "2017-05-04T01:00:13-04:00",
+  "publisher": "NCQA PHEMUR",
+  "expansion": {
+    "identifier": "urn:uuid:5e8e4d31-8578-4f31-b7d8-7b8d06e0fc03",
+    "timestamp": "2025-11-18T17:20:17-05:00",
+    "total": 7,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "17822-8",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Body fluid"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "32516-7",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Specimen"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "32533-2",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Bone marrow"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "40623-1",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Bronchial specimen"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "43970-3",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Cerebral spinal fluid"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "51300-2",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Tissue"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "8123-2",
+        "display": "CD3+CD4+ (T4 helper) cells/cells in Blood"
+      }
+    ]
+  }
+}

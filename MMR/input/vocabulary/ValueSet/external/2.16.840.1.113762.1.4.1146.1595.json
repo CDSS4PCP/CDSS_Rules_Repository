@@ -1,0 +1,248 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1146.1595",
+  "meta": {
+    "versionId": "19",
+    "lastUpdated": "2025-06-21T01:03:03.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2025-06-21"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1595",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1146.1595"
+    }
+  ],
+  "version": "20250621",
+  "name": "HIVInfectionARVNonNucleosideReverseTranscriptaseInhibitorsNNRTIsRXNORM",
+  "title": "HIV Infection (ARV Non nucleoside Reverse Transcriptase Inhibitors [NNRTIs]) (RXNORM)",
+  "status": "active",
+  "date": "2025-06-21T01:03:03-04:00",
+  "publisher": "CSTE Steward",
+  "expansion": {
+    "identifier": "urn:uuid:4a1c28e2-668a-4d69-b708-c83a462dbff4",
+    "timestamp": "2025-11-18T17:19:17-05:00",
+    "total": 33,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1052658",
+        "display": "etravirine 200 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1052660",
+        "display": "etravirine 200 MG Oral Tablet [Intelence]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1088481",
+        "display": "efavirenz 200 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1095712",
+        "display": "24 HR nevirapine 400 MG Extended Release Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1095715",
+        "display": "24 HR nevirapine 400 MG Extended Release Oral Tablet [Viramune]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1102273",
+        "display": "rilpivirine 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1102277",
+        "display": "rilpivirine 25 MG Oral Tablet [Edurant]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1250721",
+        "display": "etravirine 25 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1250723",
+        "display": "etravirine 25 MG Oral Tablet [Intelence]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1373745",
+        "display": "24 HR nevirapine 100 MG Extended Release Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "1373747",
+        "display": "24 HR nevirapine 100 MG Extended Release Oral Tablet [Viramune]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "199422",
+        "display": "nevirapine 200 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "205290",
+        "display": "efavirenz 200 MG Oral Capsule"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "205291",
+        "display": "efavirenz 100 MG Oral Capsule"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "205292",
+        "display": "efavirenz 50 MG Oral Capsule"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2055760",
+        "display": "doravirine 100 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2055766",
+        "display": "doravirine 100 MG Oral Tablet [Pifeltro]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "211327",
+        "display": "nevirapine 200 MG Oral Tablet [Viramune]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "213390",
+        "display": "efavirenz 200 MG Oral Capsule [Sustiva]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "213392",
+        "display": "efavirenz 50 MG Oral Capsule [Sustiva]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "213405",
+        "display": "nevirapine 10 MG/ML Oral Suspension [Viramune]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2594980",
+        "display": "3 ML rilpivirine 300 MG/ML Injection"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2594982",
+        "display": "2 ML rilpivirine 300 MG/ML Injection"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2678244",
+        "display": "rilpivirine 2.5 MG Tablet for Oral Suspension"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "2678248",
+        "display": "rilpivirine 2.5 MG Tablet for Oral Suspension [Edurant]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "311943",
+        "display": "nevirapine 10 MG/ML Oral Suspension"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "349477",
+        "display": "efavirenz 600 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "352143",
+        "display": "efavirenz 600 MG Oral Tablet [Sustiva]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "402008",
+        "display": "efavirenz 30 MG/ML Oral Solution"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "754761",
+        "display": "etravirine 100 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "758555",
+        "display": "etravirine 100 MG Oral Tablet [Intelence]"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "856560",
+        "display": "delavirdine mesylate 100 MG Oral Tablet"
+      },
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version": "09022025",
+        "code": "856610",
+        "display": "delavirdine mesylate 200 MG Oral Tablet"
+      }
+    ]
+  }
+}

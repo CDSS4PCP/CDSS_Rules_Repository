@@ -1,0 +1,81 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.464.1003.121.12.1004",
+  "meta": {
+    "versionId": "17",
+    "lastUpdated": "2023-12-21T17:43:03.000-05:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2017-05-04"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.121.12.1004",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.3.464.1003.121.12.1004"
+    }
+  ],
+  "version": "20170504",
+  "name": "CD4Count",
+  "title": "CD4  Count",
+  "status": "retired",
+  "experimental": false,
+  "date": "2022-03-03T18:46:01-05:00",
+  "publisher": "NCQA PHEMUR",
+  "expansion": {
+    "identifier": "urn:uuid:46aabaca-d4d7-48f1-a056-123c252d3a65",
+    "timestamp": "2025-11-18T17:20:19-05:00",
+    "total": 5,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "24467-3",
+        "display": "CD3+CD4+ (T4 helper) cells [#/volume] in Blood"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "32515-9",
+        "display": "CD3+CD4+ (T4 helper) cells [#/volume] in Specimen"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "32532-4",
+        "display": "CD3+CD4+ (T4 helper) cells [#/volume] in Bone marrow"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "40898-9",
+        "display": "CD3+CD4+ (T4 helper) cells [#/volume] in Tissue"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "63450-1",
+        "display": "CD3+CD4+ (T4 helper) cells [#/volume] in Cerebral spinal fluid"
+      }
+    ]
+  }
+}

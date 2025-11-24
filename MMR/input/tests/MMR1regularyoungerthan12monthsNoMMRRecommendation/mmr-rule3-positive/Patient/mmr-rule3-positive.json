@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "mmr-rule3-positive",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2016-07-12",
+  "note": [
+    {
+      "text": "Age 9 years, had first MMR at age 7 years"
+    }
+  ]
+}

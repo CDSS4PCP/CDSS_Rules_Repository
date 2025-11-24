@@ -1,0 +1,74 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1056.51",
+  "meta": {
+    "versionId": "36",
+    "lastUpdated": "2024-06-04T01:21:19.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2024-06-04"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1056.51",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1056.51"
+    }
+  ],
+  "version": "20240604",
+  "name": "IndicatorsOfHumanImmunodeficiencyVirusHIV",
+  "title": "Indicators of Human Immunodeficiency Virus (HIV)",
+  "status": "active",
+  "date": "2024-06-04T01:21:19-04:00",
+  "publisher": "Mathematica",
+  "expansion": {
+    "identifier": "urn:uuid:6c1a68db-58fa-4f8e-9aac-8d0b60ac8cec",
+    "timestamp": "2025-11-18T17:19:48-05:00",
+    "total": 4,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013",
+        "code": "042",
+        "display": "Human immunodeficiency virus [HIV] disease"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013",
+        "code": "079.53",
+        "display": "Human immunodeficiency virus, type 2 [HIV-2]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013",
+        "code": "795.71",
+        "display": "Nonspecific serologic evidence of human immunodeficiency virus [HIV]"
+      },
+      {
+        "system": "http://hl7.org/fhir/sid/icd-9-cm",
+        "version": "2013",
+        "code": "V08",
+        "display": "Asymptomatic human immunodeficiency virus [HIV] infection status"
+      }
+    ]
+  }
+}

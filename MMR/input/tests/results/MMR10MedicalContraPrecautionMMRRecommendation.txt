@@ -1,0 +1,357 @@
+CQL: /Users/danheslinga/CDSS_Rules_Repository/MMR/input/cql
+Terminology: /Users/danheslinga/CDSS_Rules_Repository/MMR/input/vocabulary/valueset
+Test cases:
+mmr-rule1-negative - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule1-negative
+mmr-rule1-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule1-positive
+mmr-rule10-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule10-positive
+mmr-rule11-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule11-positive
+mmr-rule12-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule12-positive
+mmr-rule12-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule12-positive2
+mmr-rule12-positive3 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule12-positive3
+mmr-rule2-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule2-positive
+mmr-rule3-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule3-positive
+mmr-rule4-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule4-positive
+mmr-rule5-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule5-positive
+mmr-rule5-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule5-positive2
+mmr-rule6-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule6-positive
+mmr-rule6-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule6-positive2
+mmr-rule7-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule7-positive
+mmr-rule8-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule8-positive
+mmr-rule9-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR10MedicalContraPrecautionMMRRecommendation/mmr-rule9-positive
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule1-negative)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule1-positive)
+Recommendation1=null
+
+InPopulation=true
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule10-positive)
+Recommendation1=Schedule/admininster 2nd dose after pregnancy, >= 4 wk of 1st dose
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule11-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule12-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule12-positive2)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule12-positive3)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule2-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule3-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule4-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule5-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule5-positive2)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule6-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule6-positive2)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule7-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=true
+Patient=Patient(id=mmr-rule8-positive)
+Recommendation1=null
+
+InPopulation=false
+MMR_Vaccine_OneDose=false
+Patient=Patient(id=mmr-rule9-positive)
+Recommendation1=null
+
+
+Evaluation logs:
+8910157 [pool-2-thread-1] INFO  o.c.fhir.npm.NpmPackageManager Loading core FHIR version hl7.fhir.r4.core 
+8910296 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910297 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910421 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910422 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910422 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910423 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910424 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910424 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910429 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910430 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910430 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910431 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910431 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910432 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910433 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910433 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910434 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910435 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910435 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToConcept'. It's recommended to always include signatures in ELM 
+8910435 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToCode'. It's recommended to always include signatures in ELM 
+8910435 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910436 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910436 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910436 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910436 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910436 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910436 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910436 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910436 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910437 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910437 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910437 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910437 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910437 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910437 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToConcept'. It's recommended to always include signatures in ELM 
+8910437 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToCode'. It's recommended to always include signatures in ELM 
+8910437 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910438 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910438 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910438 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910438 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910438 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910438 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910438 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910438 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToConcept'. It's recommended to always include signatures in ELM 
+8910439 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToCode'. It's recommended to always include signatures in ELM 
+8910439 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910439 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910440 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910440 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910441 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910441 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910442 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910442 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910443 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910443 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910443 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910443 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910443 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910443 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910444 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910444 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910444 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910445 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910446 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910446 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910446 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910446 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910447 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910447 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910448 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910449 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910449 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910449 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910449 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910449 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910450 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910450 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910450 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910451 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910452 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910452 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910453 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910453 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910453 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910453 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910453 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910453 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910453 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910454 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910454 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+8910455 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToConcept'. It's recommended to always include signatures in ELM 
+8910455 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ToCode'. It's recommended to always include signatures in ELM 
+8910455 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+
+elapsed: 0.321 seconds

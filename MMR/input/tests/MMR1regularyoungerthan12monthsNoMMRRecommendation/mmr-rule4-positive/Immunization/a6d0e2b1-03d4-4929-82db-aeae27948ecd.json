@@ -1,0 +1,20 @@
+{
+  "resourceType": "Immunization",
+  "id": "a6d0e2b1-03d4-4929-82db-aeae27948ecd",
+  "status": "completed",
+  "primarySource": true,
+  "vaccineCode": {
+    "coding": [
+      {
+        "code": "433733003",
+        "system": "http://snomed.info/sct",
+        "display": "measles, mumps, rubella, and varicella virus vaccine snomed"
+      }
+    ],
+    "text": "measles, mumps, rubella, and varicella virus vaccine"
+  },
+  "occurrenceDateTime": "2023-08-12T00:00:00.000Z",
+  "patient": {
+    "reference": "Patient/mmr-rule4-positive"
+  }
+}

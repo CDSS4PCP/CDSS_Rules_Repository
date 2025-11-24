@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "mmr-rule2-positive",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2022-07-12",
+  "note": [
+    {
+      "text": "Had first MMR age 13 months"
+    }
+  ]
+}

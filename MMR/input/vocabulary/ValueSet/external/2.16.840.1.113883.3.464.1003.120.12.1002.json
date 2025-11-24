@@ -1,0 +1,171 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113883.3.464.1003.120.12.1002",
+  "meta": {
+    "versionId": "17",
+    "lastUpdated": "2024-03-26T13:01:20.000-04:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2016-03-31"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.120.12.1002",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113883.3.464.1003.120.12.1002"
+    }
+  ],
+  "version": "20160331",
+  "name": "HIVViralLoad",
+  "title": "HIV Viral Load",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-03-03T18:46:01-05:00",
+  "publisher": "Mathematica",
+  "expansion": {
+    "identifier": "urn:uuid:2a3f621b-e1e3-4b84-afee-f76864f5607e",
+    "timestamp": "2025-11-18T17:19:22-05:00",
+    "total": 20,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "10351-5",
+        "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by Probe with amplification"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "104762-0",
+        "display": "HIV 1 RNA [Log #/volume] in Serum or Plasma by Molecular genetics method"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "104781-0",
+        "display": "HIV 1 RNA [#/volume] in Serum or Plasma by Molecular genetics method"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "20447-9",
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "21008-8",
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "21333-0",
+        "display": "HIV 1 RNA [#/volume] in Serum"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "23876-6",
+        "display": "HIV 1 RNA [Units/volume] (viral load) in Plasma by Probe with signal amplification"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "29539-4",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Plasma by Probe with signal amplification"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "29541-0",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "41514-1",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 2.6 log copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "41515-8",
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 75 copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "41516-6",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe with amplification detection limit = 1.9 log copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "48510-2",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 1.7 log copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "48511-0",
+        "display": "HIV 1 RNA [#/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 50 copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "48552-4",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 2.6 log copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "51780-5",
+        "display": "HIV 1 RNA [Log #/volume] (viral load) in Serum or Plasma by Probe and target amplification method detection limit = 0.5 log copies/mL"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "59419-2",
+        "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe with signal amplification"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "62469-2",
+        "display": "HIV 1 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "69354-9",
+        "display": "HIV 2 RNA [Units/volume] (viral load) in Serum or Plasma by NAA with probe detection"
+      },
+      {
+        "system": "http://loinc.org",
+        "version": "2.80",
+        "code": "70241-5",
+        "display": "HIV 1 RNA [#/volume] (viral load) in Plasma by Probe and target amplification method detection limit = 20 copies/mL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+# Environment variables (contains API keys)
+.env
+
+# Node modules
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Downloaded error pages from VSAC
+*_error.html
+
+# Claude Code
+.claude/
+
+# MMR IG Publisher outputs and temp files
+MMR/output/
+MMR/temp/
+MMR/fsh-generated/
+MMR/template/
+
+# IG Publisher tooling - JARs and schemas downloaded via _refresh.sh
+MMR/input-cache/*.jar
+MMR/input-cache/schemas/
+
+# Keep txcache for faster builds and consistent terminology
+!MMR/input-cache/txcache/
+
+# Script related
+package-lock.json
+package.json

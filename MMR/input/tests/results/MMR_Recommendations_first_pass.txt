@@ -1,0 +1,1080 @@
+CQL: /Users/danheslinga/CDSS_Rules_Repository/MMR/input/cql
+Terminology: /Users/danheslinga/CDSS_Rules_Repository/MMR/input/vocabulary/valueset
+Test cases:
+mmr-rule1-negative - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule1-negative
+mmr-rule1-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule1-positive
+mmr-rule10-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule10-positive
+mmr-rule11-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule11-positive
+mmr-rule12-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule12-positive
+mmr-rule12-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule12-positive2
+mmr-rule12-positive3 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule12-positive3
+mmr-rule2-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule2-positive
+mmr-rule3-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule3-positive
+mmr-rule4-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule4-positive
+mmr-rule5-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule5-positive
+mmr-rule5-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule5-positive2
+mmr-rule6-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule6-positive
+mmr-rule6-positive2 - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule6-positive2
+mmr-rule7-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule7-positive
+mmr-rule8-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule8-positive
+mmr-rule9-positive - /Users/danheslinga/CDSS_Rules_Repository/MMR/input/tests/MMR_Recommendations/mmr-rule9-positive
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule1-negative)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule1-positive)
+RecommendationCount=2
+
+AllRecommendations=[]
+ApplicableRules=[]
+HasRecommendations=false
+Patient=Patient(id=mmr-rule10-positive)
+RecommendationCount=0
+
+AllRecommendations=[]
+ApplicableRules=[]
+HasRecommendations=false
+Patient=Patient(id=mmr-rule11-positive)
+RecommendationCount=0
+
+AllRecommendations=[]
+ApplicableRules=[]
+HasRecommendations=false
+Patient=Patient(id=mmr-rule12-positive)
+RecommendationCount=0
+
+AllRecommendations=[]
+ApplicableRules=[]
+HasRecommendations=false
+Patient=Patient(id=mmr-rule12-positive2)
+RecommendationCount=0
+
+AllRecommendations=[]
+ApplicableRules=[]
+HasRecommendations=false
+Patient=Patient(id=mmr-rule12-positive3)
+RecommendationCount=0
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule2-positive)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1 dose, Recommendation 2: Schedule 2nd dose > = 4 wk of 1st dose]
+ApplicableRules=[Rule3: Regular 47 months-18 years, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule3-positive)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule4-positive)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule5-positive)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule5-positive2)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule6-positive)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1st dose, Schedule 2nd dose 4-6 yr of age]
+ApplicableRules=[Rule2: Regular 12-47 months, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule6-positive2)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1 dose, Recommendation 2: Schedule 2nd dose > = 4 wk of 1st dose]
+ApplicableRules=[Rule3: Regular 47 months-18 years, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule7-positive)
+RecommendationCount=2
+
+AllRecommendations=[Recommendation 1: Administer 1 dose, Recommendation 2: Schedule 2nd dose > = 4 wk of 1st dose]
+ApplicableRules=[Rule3: Regular 47 months-18 years, no MMR]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule8-positive)
+RecommendationCount=2
+
+AllRecommendations=[]
+ApplicableRules=[]
+HasRecommendations=false
+Patient=Patient(id=mmr-rule9-positive)
+RecommendationCount=0
+
+
+Evaluation logs:
+78679125 [pool-2-thread-1] INFO  o.c.fhir.npm.NpmPackageManager Loading core FHIR version hl7.fhir.r4.core 
+78679324 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679324 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679825 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679825 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679828 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679829 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679830 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679831 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679831 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679832 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679833 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679834 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679834 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679834 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679834 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679834 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679834 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679834 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679834 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679835 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679836 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679837 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679837 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679837 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679838 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679839 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679839 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679839 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679839 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679839 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679840 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679841 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679842 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679842 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679842 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679842 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679843 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679844 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679844 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679844 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679845 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679846 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679847 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679847 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679847 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679847 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679847 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679847 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679847 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679847 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679847 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679848 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679849 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679849 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679850 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679850 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679850 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679850 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679851 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679852 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679853 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679853 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679853 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679853 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679854 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679855 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679855 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679855 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679855 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679856 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679857 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679862 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679862 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679863 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679864 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679865 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679865 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679865 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679865 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679866 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679867 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679867 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679867 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679867 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679867 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679868 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679869 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679869 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679869 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679870 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679871 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679872 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679872 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679872 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679873 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679874 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679874 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=DIRECTORY_PER_TYPE, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679874 [pool-2-thread-1] INFO  o.o.c.f.u.r.ig.IgConventions Auto-detected repository configuration: IGConventions [typeLayout=FLAT, categoryLayout=FLAT compartmentLayout=FLAT, filenameMode=ID_ONLY] 
+78679874 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679874 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetAge'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'MMRVaccineDate'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'GetDifferenceInUnit'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidVaccines'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidPregnantCondition'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidImmunocompromisedCondition'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'ActiveCondition'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsCondition'. It's recommended to always include signatures in ELM 
+78679875 [pool-2-thread-1] DEBUG o.o.c.c.e.e.e.FunctionRefEvaluator Using runtime function resolution for 'FindValidHivAidsObservation'. It's recommended to always include signatures in ELM 
+78679876 [pool-2-thread-1] DEBUG o.o.c.f.c.e.r.BaseRetrieveProvider No profile-specific template id specified. Returning unfiltered resources. 
+
+elapsed: 0.796 seconds

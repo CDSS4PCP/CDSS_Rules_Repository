@@ -1,0 +1,19 @@
+{
+  "resourceType": "Patient",
+  "id": "mmr-rule1-negative",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2024-10-20",
+  "note": [
+    {
+      "text": "Just old enough for first MMR dose"
+    }
+  ]
+}

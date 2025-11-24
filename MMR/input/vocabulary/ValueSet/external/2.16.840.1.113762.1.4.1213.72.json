@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "2.16.840.1.113762.1.4.1213.72",
+  "meta": {
+    "versionId": "6",
+    "lastUpdated": "2023-12-21T17:43:03.000-05:00",
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate": "2020-06-20"
+    }
+  ],
+  "url": "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1213.72",
+  "identifier": [
+    {
+      "system": "urn:ietf:rfc:3986",
+      "value": "urn:oid:2.16.840.1.113762.1.4.1213.72"
+    }
+  ],
+  "version": "20200620",
+  "name": "HistoryOfHIVAIDSICD10CM",
+  "title": "History of HIV/AIDS ICD10CM",
+  "status": "retired",
+  "experimental": false,
+  "date": "2020-06-20T01:00:21-04:00",
+  "publisher": "Meaningful Drug Interaction Alerts Steward",
+  "expansion": {
+    "identifier": "urn:uuid:9edfd5dd-0ad1-44f8-ae74-7259d92a9869",
+    "timestamp": "2025-11-18T17:20:10-05:00",
+    "total": 1,
+    "offset": 0,
+    "parameter": [
+      {
+        "name": "count",
+        "valueInteger": 1000
+      },
+      {
+        "name": "offset",
+        "valueInteger": 0
+      }
+    ],
+    "contains": [
+      {
+        "system": "http://hl7.org/fhir/sid/icd-10-cm",
+        "version": "2026",
+        "code": "B20",
+        "display": "Human immunodeficiency virus [HIV] disease"
+      }
+    ]
+  }
+}
