@@ -1,1 +1,0 @@
-{"resourceType":"Bundle","id":"tests-Patient-bundle","type":"transaction","entry":[{"resource":{"resourceType":"Patient","id":"mmr-rule8-positive","name":[{"family":"Smith","given":["John"]}],"gender":"male","birthDate":"2016-07-12"},"request":{"method":"PUT","url":"Patient/mmr-rule8-positive"}}]}

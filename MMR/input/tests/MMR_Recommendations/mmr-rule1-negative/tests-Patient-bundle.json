@@ -1,1 +1,0 @@
-{"resourceType":"Bundle","id":"tests-Patient-bundle","type":"transaction","entry":[{"resource":{"resourceType":"Patient","id":"mmr-rule1-negative","name":[{"family":"Smith","given":["John"]}],"gender":"male","birthDate":"2024-10-20"},"request":{"method":"PUT","url":"Patient/mmr-rule1-negative"}}]}

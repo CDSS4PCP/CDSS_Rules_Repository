@@ -1,10 +1,14 @@
 library "MMR5regular12months_4yrs_OneDoseOutOf12to15MonRecommendation" version '1.0.0'
 
+/**
+- Age [12 mo, 4 yr) 
+- 
+*/
+
 include "MMR_Common_Library" version '1.0.0' called Common
 using FHIR version '4.0.1'
 
 include "FHIRHelpers" version '4.0.1' called FHIRHelpers
-
 
 context Patient
 
@@ -27,7 +31,6 @@ define "$Dose1AdminMaxAge_unit": 'month'
 define "$WeeksSinceDose": 4
 
 define "$WeeksSinceDose_unit": 'week'
-
 
 define "VaccineName":
     'Measles, Mumps, and Rubella Virus Vaccine'
@@ -62,19 +65,14 @@ define "PrevDoseDate":
 define "PatientBirthDate":
     ToDate(Patient.birthDate.value)
 
-
 define "AgeFirstDoseMonths":
     months between Patient.birthDate and PrevDoseDate // This does not take years into account
-
 
 define "DiffInMinAdminUnit":
     Abs(Common.GetDifferenceInUnit("PrevDoseDate", "PatientBirthDate", "$Dose1AdminMinAge_unit"))
 
 define "DiffInMaxAdminUnit":
     Abs(Common.GetDifferenceInUnit("PrevDoseDate", "PatientBirthDate", "$Dose1AdminMaxAge_unit"))
-
-
-
 
 define "AgeFirstMMRIn":
     "DiffInMinAdminUnit" >= "$Dose1AdminMinAge" and  "DiffInMaxAdminUnit" <= "$Dose1AdminMaxAge"

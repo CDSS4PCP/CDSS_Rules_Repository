@@ -1,6 +1,13 @@
 library "MMR4regular12months_4yrs_OneMMRRecommendation" version '1.0.0'
 
-//include "MMR_Common_Library" version '1.0.0' called Common
+/*
+Age [12 mo, 4 yr) and one MMR
+- Schedule 2nd dose MMR
+- null if 1st dose is give late. TODO: This is an error. 
+  If the first does is given late, the 2nd dose should be given 
+  4 weeks after the 1st dose AND after or on 4th birthday.
+*/
+
 using FHIR version '4.0.1'
 
 include "FHIRHelpers" version '4.0.1' called FHIRHelpers
@@ -44,10 +51,13 @@ define "MMR_Vaccine_OneDose":
 // Extract dates from MMR immunizations
 define function MMRVaccineDate(Immunizations List<FHIR.Immunization>):
     (Immunizations TemDate
-        return Tuple {Date: Date(year from TemDate.occurrence.value,
-                      month from TemDate.occurrence.value,
-					  day from TemDate.occurrence.value)
-					  }
+      return Tuple {
+        Date: Date(
+          year from TemDate.occurrence.value,
+          month from TemDate.occurrence.value,
+          day from TemDate.occurrence.value
+          )
+        }
     sort by Date)
 
 define "PatientBirthDate":

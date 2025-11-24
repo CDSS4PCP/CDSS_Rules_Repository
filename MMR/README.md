@@ -83,6 +83,14 @@ The CQL files in `input/cql/` contain the clinical logic for MMR vaccination rec
 
 Test patient bundles in `input/tests/MMR_Recommendations/` were derived from the [CDSS Testing Harness](https://github.com/CDSS4PCP/cdss-testing-harness) repository. Original bundles were modified to conform to the sample-content-ig directory structure requirements.
 
+**📊 For a comprehensive overview of all 17 test cases**, see [docs/test-cases-summary.md](docs/test-cases-summary.md). This document provides a quick reference table and detailed information about each test patient's age, vaccination history, conditions, and expected recommendations.
+
+To regenerate the test case summary (e.g., after adding new test cases or changing the reference date):
+
+```bash
+node scripts/generate-test-summary.js [YYYY-MM-DD]
+```
+
 ### External ValueSets
 
 External ValueSets are included in `input/vocabulary/ValueSet/external/` (1.5MB total) to ensure:

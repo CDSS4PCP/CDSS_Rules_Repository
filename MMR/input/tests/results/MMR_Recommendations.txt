@@ -31,36 +31,6 @@ HasRecommendations=true
 Patient=Patient(id=mmr-rule1-positive)
 RecommendationCount=2
 
-AllRecommendations=[Schedule/admininster 2nd dose after pregnancy, >= 4 wk of 1st dose]
-ApplicableRules=[Rule10: Contraindication - Pregnant (one dose)]
-HasRecommendations=true
-Patient=Patient(id=mmr-rule10-positive)
-RecommendationCount=1
-
-AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR]
-ApplicableRules=[Rule11: Contraindication - Immunocompromised]
-HasRecommendations=true
-Patient=Patient(id=mmr-rule11-positive)
-RecommendationCount=1
-
-AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR, DO NOT ADMINISTER OR SCHEDULE MMR]
-ApplicableRules=[Rule11: Contraindication - Immunocompromised, Rule12: Contraindication - HIV/Immunocompromised]
-HasRecommendations=true
-Patient=Patient(id=mmr-rule12-positive)
-RecommendationCount=2
-
-AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR]
-ApplicableRules=[Rule12: Contraindication - HIV/Immunocompromised]
-HasRecommendations=true
-Patient=Patient(id=mmr-rule12-positive2)
-RecommendationCount=1
-
-AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR]
-ApplicableRules=[Rule12: Contraindication - HIV/Immunocompromised]
-HasRecommendations=true
-Patient=Patient(id=mmr-rule12-positive3)
-RecommendationCount=1
-   
 AllRecommendations=[Recommendation 1: Schedule 2nd dose MMR when patient is 4-6 years old, Administer 2nd dose MMR]
 ApplicableRules=[Rule4: Regular 12 months-4 years, one MMR, Rule5: Regular 12 months-4 years, one dose (12-15 mon)]
 HasRecommendations=true
@@ -120,6 +90,36 @@ ApplicableRules=[Rule9: Contraindication - Pregnant]
 HasRecommendations=true
 Patient=Patient(id=mmr-rule9-positive)
 RecommendationCount=2
+
+AllRecommendations=[Schedule/admininster 2nd dose after pregnancy, >= 4 wk of 1st dose]
+ApplicableRules=[Rule10: Contraindication - Pregnant (one dose)]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule10-positive)
+RecommendationCount=1
+
+AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR]
+ApplicableRules=[Rule11: Contraindication - Immunocompromised]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule11-positive)
+RecommendationCount=1
+
+AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR, DO NOT ADMINISTER OR SCHEDULE MMR]
+ApplicableRules=[Rule11: Contraindication - Immunocompromised, Rule12: Contraindication - HIV/Immunocompromised]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule12-positive)
+RecommendationCount=2
+
+AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR]
+ApplicableRules=[Rule12: Contraindication - HIV/Immunocompromised]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule12-positive2)
+RecommendationCount=1
+
+AllRecommendations=[DO NOT ADMINISTER OR SCHEDULE MMR]
+ApplicableRules=[Rule12: Contraindication - HIV/Immunocompromised]
+HasRecommendations=true
+Patient=Patient(id=mmr-rule12-positive3)
+RecommendationCount=1
 
 
 Evaluation logs:

@@ -19,23 +19,18 @@ include "MMR10MedicalContraPrecautionMMRRecommendation" version '1.0.0' called R
 include "MMR11MedicalContraPrecautionMMRRecommendation_Immunocompromised" version '1.0.0' called Rule11
 include "MMR12MedicalContraPrecautionMMRRecommendation_HIVImmunocompromised" version '1.0.0' called Rule12
 
-// Parameters covering all rule needs
-// parameter Conditions List<Condition>
-// parameter Observations List<Observation>
-// parameter Imm List<Immunization>
-
 context Patient
 
 // Aggregate all recommendations from all rules
 define "AllRecommendations":
   (
     {
-      Rule1.Recommendation1,
-      Rule1.Recommendation2,
-      Rule2.Recommendation1,
-      Rule2.Recommendation2,
-      Rule3.Recommendation1,
-      Rule3.Recommendation2,
+      Rule1."Recommendation 1",
+      Rule1."Recommendation 2",
+      Rule2."Recommendation 1",
+      Rule2."Recommendation 2",
+      Rule3."Recommendation 1",
+      Rule3."Recommendation 2",
       Rule4.Recommendation1,
       Rule5.Recommendation1,
       Rule6.Recommendation1,
@@ -53,9 +48,9 @@ define "AllRecommendations":
 define "ApplicableRules":
   (
     {
-      if Rule1.InPopulation then 'Rule1: Regular <12 months, no MMR' else null,
-      if Rule2.InPopulation then 'Rule2: Regular 12-47 months, no MMR' else null,
-      if Rule3.InPopulation then 'Rule3: Regular 47 months-18 years, no MMR' else null,
+      if Rule1."In Population" then 'Rule1: Regular <12 months, no MMR' else null,
+      if Rule2."In Population" then 'Rule2: Regular 12-47 months, no MMR' else null,
+      if Rule3."In Population" then 'Rule3: Regular 47 months-18 years, no MMR' else null,
       if Rule4.InPopulation then 'Rule4: Regular 12 months-4 years, one MMR' else null,
       if Rule5.InPopulation then 'Rule5: Regular 12 months-4 years, one dose (12-15 mon)' else null,
       if Rule6.InPopulation then 'Rule6: Regular 12 months-4 years, one dose variant' else null,

@@ -1,55 +1,56 @@
 library "MMR2regularyoungerthan12_47monthsNoMMRRecommendation" version '1.0.0'
 
+/*
+Purpose: Recommend first MMR dose for toddlers
+- Patient age: 12 months to < 47 months (< 4 years)
+- Patient must have no valid MMR doses on record
+- Action: Administer 1st dose now
+- Schedule: 2nd dose at 4-6 years
+*/
+
 using FHIR version '4.0.1'
 
-include "FHIRHelpers" version '4.0.1' called FHIRHelpers
-include "MMR_Common_Library" version '1.0.0' called Common
+include FHIRHelpers version '4.0.1'
+include MMR_Common_Library version '1.0.0' called Common
 
 context Patient
 
-define "$Age1":
-    12
+// Age eligibility: 12 months to < 47 months (< 4 years)
+define "Age Eligibility Range":
+  Interval[12 months, 47 months)
 
-define "$Age1_unit":
-    'month'
+define "Patient Age in Months":
+  AgeInMonths()
 
-define "$Age2":
-    47
+define "Patient Age in Range":
+  "Patient Age in Months" in "Age Eligibility Range"
 
-define "$Age2_unit":
-    'month'
+// Valid MMR doses (given at >= 12 months of age)
+define "Valid MMR Doses":
+  Common."MMR Immunizations" I
+    let doseDate: Coalesce(
+      ToDate(I.occurrence as FHIR.dateTime),
+      ToDate(I.occurrence as FHIR.string)
+    )
+    where months between ToDate(Patient.birthDate.value) and doseDate >= 12
 
-define "VaccineName":
-    'Measles, Mumps, and Rubella Virus Vaccine'
+define "Has No Valid MMR Doses":
+  not exists("Valid MMR Doses")
 
-define "Current Age in Lower Limit Units":
-  Common.GetAge("$Age1_unit")
+// Population criteria
+define "In Population":
+  "Patient Age in Range"
+    and "Has No Valid MMR Doses"
 
-define "Current Age in Upper Limit Units":
-  Common.GetAge("$Age2_unit")
+// Clinical recommendations
+define "Recommendation 1":
+  if "In Population" then
+    'Administer 1st dose MMR'
+  else
+    null
 
-define "Current Age In Range":
- Common.GetAge("$Age1_unit") >= "$Age1"
-    and Common.GetAge("$Age2_unit") < "$Age2"
-
-define "InPopulation":
-   "Current Age In Range" and not exists(Common."MMR Immunizations")
-
-define "Recommendation1":
-    if InPopulation then
-        'Recommendation 1: Administer 1st dose'
-    else
-        null
-
-define "Recommendation2":
-    if InPopulation then
-        'Schedule 2nd dose 4-6 yr of age'
-    else
-        null
-
-
-define "Recommendation":
-    if InPopulation then
-        {Recommendation1, Recommendation2}
-    else
-        null
+define "Recommendation 2":
+  if "In Population" then
+    'Schedule 2nd dose MMR at 4-6 years'
+  else
+    null
